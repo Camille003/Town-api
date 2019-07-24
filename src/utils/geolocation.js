@@ -3,7 +3,7 @@ const axios = require('axios')
 //const getWeather = require("./forecast")
 //This function present a list of relevant places to the user input
 //Used for geocoding and getting latitudes and longitudes of future  request 
-const {deleteUnwantedProperties} = require("./utils/utils")
+const {deleteUnwantedProperties} = require("./utils")
 
 const access_token = process.env.MAP_BOX;
 

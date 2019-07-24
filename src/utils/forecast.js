@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const {deleteUnwantedProperties,copy,max,min,getAverage} = require("./utils/utils");
+const {deleteUnwantedProperties,copy,max,min,getAverage} = require("./utils");
 
 const getWeather = async ({mode = 'currently',units = 'si',language='en',longitude , latitude,placeName}) =>{
    

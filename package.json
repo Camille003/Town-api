@@ -16,7 +16,7 @@
     "nodemon": "^1.19.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node start src/index.js"
   },
   "keywords": [],
   "author": "",
