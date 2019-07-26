@@ -1,3 +1,11 @@
+const isEmpty = (entity)=>{
+    if(Array.isArray(entity)){
+        return entity.length == 0 ? true : false; 
+    }
+    const objectArray = Object.keys(entity)
+    return objectArray.length == 0 ? true : false; 
+}
+
 const copy = (entity) => {
     if(Array.isArray(entity)){
         return [...entity]; 
@@ -58,7 +66,8 @@ module.exports = {
     deleteUnwantedProperties,
     max,
     min,
-    getAverage
+    getAverage,
+    isEmpty
 }
 
 
